@@ -2,10 +2,10 @@ package com.example.demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import io.awspring.cloud.sqs.annotation.EnableSqs
+import org.springframework.scheduling.annotation.EnableScheduling
 
 @SpringBootApplication
-@EnableSqs
+@EnableScheduling
 class DemoApplication
 
 fun main(args: Array<String>) {
